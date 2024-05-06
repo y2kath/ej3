@@ -3,9 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>EJERCICIO 3</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="ej.js"></script>
 </head>
 <body>
     <h1>EJERCICIO 3</h1>
+    <div class="problema-container">
+        <h3>Dada una lista de palabras, encontrar la palabra que más números de caracteres únicos tenga.
+            <br>
+            Considera solamente el alfabeto de A-Z, en mayúsculas. Las palabras ingresadas deberán estar separadas
+            por una coma, no se aceptan espacios.
+        </h3>
+        <div class="problema-content">
+            <input type="text" class="problema-input" placeholder="Escribe las palabras"
+                id="p3-input">
+                 <span class=barra></span>
+            <button type="button" class="problema-button" style="margin-top: 1rem;" onclick="problema3()">Calcular el resultado</button>
+            <pre class="problema-output" id="p3-output">...</pre>
+        </div>
+    </div>
 </body>
 </html>

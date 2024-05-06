@@ -1,0 +1,84 @@
+/* Estilos generales */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    padding: 0;
+    background-image: url(img/descarga.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    color: #FFF;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 20px;
+    margin: 40px;
+    padding: 0;
+}
+
+h3 {
+    color: #ffffff;
+}
+
+.problema-content {
+    margin-top: 20px;
+}
+
+.problema-input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #415366;
+    color: #fff;
+}
+
+.problema-input::placeholder {
+    color: #ccc;
+}
+
+.problema-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #7e95ae;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.problema-button:hover {
+    background-color: #1a3657;
+}
+
+.problema-output {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #415366;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.barra {
+    display: block;
+    width: calc(100% - 20px);
+    height: 2px;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
